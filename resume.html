@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Generated Resume</title>
+    <link rel="stylesheet" href="resume.css"> <!-- Link to resume-specific CSS -->
+</head>
+<body>
+    <div class="resume-container">
+        <header class="resume-header">
+            <div class="personal-info">
+                <h1 id="name"></h1>
+                <p id="email"></p>
+                <p id="phone"></p>
+            </div>
+        </header>
+
+        <section class="resume-section">
+            <h2>Education</h2>
+            <div id="education" class="section-content"></div>
+        </section>
+
+        <section class="resume-section">
+            <h2>Skills</h2>
+            <div id="skills" class="section-content"></div>
+        </section>
+
+        <section class="resume-section">
+            <h2>Experience</h2>
+            <div id="experience" class="section-content"></div>
+        </section>
+
+        <div class="print-btn">
+            <button onclick="window.print()">Print Resume</button>
+        </div>
+    </div>
+
+<script src="script.js"></script>
+</body>
+</html>
